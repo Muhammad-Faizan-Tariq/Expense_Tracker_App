@@ -1,0 +1,35 @@
+h1, h2, h4 {
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
+
+.account-container{
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px 0;
+}
+.account-container > div {
+    flex: 1;
+    text-align: center;
+}
+.account-container > div:first-of-type{
+    border-right: 1px solid #dedede;
+}
+
+.money{
+    font-style: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+.money.plus{
+    color: #b6960a;
+    font-weight: bold;
+}
+.money.minus{
+    color: #2da3ad;
+    font-weight: bold;
+}
